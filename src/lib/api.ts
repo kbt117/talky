@@ -14,6 +14,7 @@ export const DEFAULT_API_KEY = 'sk-or-v1-126b5e855876d19f867d9bcb366b4003d30274d
 
 export const MODELS: Model[] = [
   { id: 'poolside/laguna-m.1:free', name: 'Laguna M.1', provider: 'Poolside', ctx: '131K' },
+  { id: 'nvidia/nemotron-3-super-120b-a12b:free', name: 'Nemotron 3 Super', provider: 'NVIDIA', ctx: '262K' },
   { id: 'deepseek/deepseek-r1:free', name: 'DeepSeek R1', provider: 'DeepSeek', ctx: '64K' },
   { id: 'deepseek/deepseek-chat-v3-0324:free', name: 'DeepSeek V3', provider: 'DeepSeek', ctx: '64K' },
   { id: 'qwen/qwen3-235b-a22b:free', name: 'Qwen3 235B', provider: 'Alibaba', ctx: '128K' },
